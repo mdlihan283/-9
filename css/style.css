@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+form#formTag fieldset {
+   padding: 20px;
+}
+
+form#formTag {
+   margin: auto;
+   padding: 10px;
+   width: 500px;
+}
+
+.form-group {
+   margin-bottom: 20px;
+}
+
+.form-group input{
+   width: 93%;
+   padding: 15px 10px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   border:2px solid #ddd;
+   font-size: 16px;
+   color: #666;
+}
+
+.form-group input:focus{
+   border-color: gray !important;
+   outline: none;
+}
+
+.form-group input::placeholder{
+   color: #666;
+   font-size: 16px;
+   text-transform: capitalize;
+}
+
+.form-group label {
+   display: block;
+   font-family: arial;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+input#submitBtn {
+   width: 100%;
+   padding: 15px 0px;
+   background: #fb5200;
+   color: #fff;
+   font-size: 17px;
+   font-family: arial;
+   font-weight: 600;
+   border: navajowhite;
+   border-radius: 5px;
+   transition: all 0.5s ease;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+}
+
+input#submitBtn:hover{
+   cursor: pointer;
+   background: linear-gradient(#fb5200,#b73c00);
+}
+
+table#design_table {
+   margin: auto;
+}
+
+table#design_table thead tr th {
+   padding: 15px 61px;
+   border: none;
+   font-size: 16px;
+   font-family: arial;
+   color: #222;
+}
+
+table#design_table tbody tr td {
+   font-size: 16px;
+   font-family: arial;
+   color: #222;
+}
+
+table#design_table thead{
+   margin-bottom: 5px;
+}
+
+table#design_table tbody tr td {
+   padding: 15px 61px;
+   font-size: 16px;
+   font-family: arial;
+   color: #222;
+}
+
+tbody#add tr td {border: none;}
+
+tbody#add tr {border: 1px solid #333;}
